@@ -12,11 +12,8 @@ import Button from "@mui/material/Button";
 // import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
-const pages = [
-  { name: "Como Funciona?", link: "/how-it-works" },
-  { name: "Centros de Doação", link: "/mapping" },
-  { name: "Acessar/Registrar", link: "/not-found" },
-];
+//pages
+import pages from "./pages";
 // const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const MenuHeader = () => {
@@ -42,14 +39,14 @@ const MenuHeader = () => {
     <AppBar position="relative" color="primary">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          {/* <a href="/home" sx={{ mr: 300 }}>
+          <a href="/home" sx={{ mr: 300 }}>
             <img
               src={require("../../assets/img/banner.png")}
               alt="Plasmap"
               width="150"
               height="100"
             />
-          </a> */}
+          </a>
           <label>Plasmap</label>
 
           <Box sx={{ flexGrow: 0, display: { xs: "flex-end", md: "none" } }}>
@@ -94,9 +91,14 @@ const MenuHeader = () => {
           </Box>
           <Box
             sx={{
-              flexGrow: 0,
-              display: { xs: "none", md: "flex" },
               flexDirection: "row-reverse",
+              p: 1,
+              m: 1,
+              flexGrow: 1,
+              display: {
+                xs: "none",
+                md: "flex",
+              },
             }}
           >
             {pages.map((page) => (

@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../containers/Home";
 import HowItWorks from "../containers/HowItWorks";
 import NotFound from "../containers/404";
-import Mapping from "../containers/mapping";
+import Mapping from "../containers/Mapping";
 
 import path from "./paths";
 

@@ -4,7 +4,7 @@ import React from "react";
 export default function HowItWorks() {
   return (
     <>
-      <div style={{ paddingLeft: 20, paddingBottom: 20 }}>
+      <div className="body" style={{ paddingLeft: 20, paddingBottom: 20 }}>
         <h1>Como Funciona?</h1>
         <Grid container spacing={6}>
           <Grid item xs={8}>
@@ -140,8 +140,8 @@ export default function HowItWorks() {
           alignItems="center"
           minHeight="100vh"
         >
-          <Grid container spacing={6} justify = "center">
-            <Grid item xs={12} justify = "center">
+          <Grid container spacing={6} justify="center">
+            <Grid item xs={12} justify="center">
               <img
                 src={require("../../assets/img/tipos-sanguineos.png")}
                 alt="Plasmap"

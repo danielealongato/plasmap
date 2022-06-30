@@ -1,6 +1,7 @@
 /* eslint-disable no-import-assign */
 import React from "react";
 import GoogleMapReact from "google-map-react";
+import RoomIcon from "@mui/icons-material/Room";
 
 const hemocentros = require("../../assets/json/hemocentros.json");
 
@@ -16,10 +17,13 @@ export default function Mapping() {
   console.log(lista[0]);
   const listItem = (name, local, telefone, key) => {
     return (
-      <div key={key + 1} style={{
-        p : 10,
-        m : 10
-      }}>
+      <div
+        key={key + 1}
+        style={{
+          p: 10,
+          m: 10,
+        }}
+      >
         <h3>{name}</h3>
         <label>{local}</label>
         <h3>{telefone}</h3>
@@ -38,7 +42,19 @@ export default function Mapping() {
           }}
           defaultCenter={defaultProps.center}
           defaultZoom={defaultProps.zoom}
-        ></GoogleMapReact>
+        >
+          {lista.map((item, index) => {
+            return (
+              <RoomIcon
+                key={index}
+                sx={{ fontSize: 30 }}
+                color="primary"
+                lat={item.lat}
+                lng={item.lng}
+              />
+            );
+          })}
+        </GoogleMapReact>
       </div>
       <div>
         <div
@@ -55,8 +71,8 @@ export default function Mapping() {
             //         listItem(item.name, item.local,item.telefone);
             return (
               <>
-                  {listItem(item.name, item.local, item.telefone, index)}
-                  <hr key = {index * 3}/>
+                {listItem(item.name, item.local, item.telefone, index)}
+                <hr key={index * 3} />
               </>
 
               // <ItemList key= {index} name = {item.name} local = {item.local} telefone = {item.telefone}/>
