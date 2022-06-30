@@ -1,0 +1,20 @@
+{
+ "list" : [
+    {
+        "name": "Hemocentro Unicamp",
+        "lat":-22.828672,
+        "lng":-47.062647,
+        "local":"R. Carlos Chagas, 480 - Cidade Universitária Campinas - SP",
+        "telefone":"0800 722 8432"
+
+    },
+    {
+      "name": "Hemocentro Unicamp",
+      "lat":-22.828672,
+      "lng":-47.062647,
+      "local":"R. Carlos Chagas, 480 - Cidade Universitária Campinas - SP",
+      "telefone":"0800 722 8432"
+
+  }
+  ]
+}
