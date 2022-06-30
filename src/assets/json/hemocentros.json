@@ -1,20 +1,95 @@
 {
- "list" : [
+  "list": [
     {
-        "name": "Hemocentro Unicamp",
-        "lat":-22.828672,
-        "lng":-47.062647,
-        "local":"R. Carlos Chagas, 480 - Cidade Universitária Campinas - SP",
-        "telefone":"0800 722 8432"
-
+      "lat": "-23.557837214512517",
+      "lng": "-46.668988216968565",
+      "local": "Av. Enéas Carvalho de Aguiar, 155 1º andar, Cerqueira César, São Paulo-SP",
+      "telefone": "(11) 4573-7800",
+      "name": "Posto Clínicas"
     },
     {
-      "name": "Hemocentro Unicamp",
-      "lat":-22.828672,
-      "lng":-47.062647,
-      "local":"R. Carlos Chagas, 480 - Cidade Universitária Campinas - SP",
-      "telefone":"0800 722 8432"
-
-  }
+      "lat": "-23.58529273121178",
+      "lng": "-46.65137315038157",
+      "local": " Av. Doutor Dante Pazzanese, 500, Ibirapuera, São Paulo-SP",
+      "telefone": "(11) 4573-7800",
+      "name": "Posto Dante Pazzanese"
+    },
+    {
+      "lat": "-23.48451208221391",
+      "lng": "-46.63036772885177",
+      "local": "Rua Voluntários da Pátria, 4.227, Mandaqui, São Paulo-SP",
+      "telefone": "(11) 4573-7800",
+      "name": "Posto Mandaqui"
+    },
+    {
+      "lat": "-23.52485320933488",
+      "lng": "-46.77176208720218",
+      "local": "Rua Ari Barroso, 355, Presidente Altino, Osasco-SP",
+      "telefone": "(11) 4573-7800",
+      "name": "Posto Regional de Osasco"
+    },
+    {
+      "lat": "-23.496655121980666",
+      "lng": "-46.872355346576526",
+      "local": "Rua Angela Mirella, 354, Jardim Barueri, Barueri-SP",
+      "telefone": "(11) 4573-7800",
+      "name": "Posto Barueri"
+    },
+    {
+      "lat": "-23.496655121980666",
+      "lng": "-46.872355346576526",
+      "local": "R. Carlos Chagas, 480 - Cidade Universitária Campinas - SP",
+      "telefone": "(11) 4573-7800",
+      "name": "Posto Barueri"
+    },
+    {
+      "lat": "-23.47866886542217",
+      "lng": "-46.55153995885267",
+      "local": "Rua Maria Cândida Pereira, 568, Itapegica, Guarulhos-SP",
+      "telefone": "(11) 4573-7800",
+      "name": "Posto Stella Maris"
+    },
+    {
+      "lat": "-23.53929879732045",
+      "lng": "-46.47013789601929",
+      "local": "Av. do Contorno, 60, Itaquera, São Paulo-SP",
+      "telefone": "(11) 4573-7800",
+      "name": "Posto do Poupatempo de Itaquera"
+    },
+    {
+      "lat": "-22.891616551067056",
+      "lng": "-48.495788880523584",
+      "local": "Av. Professor Mário Rubens Guimarães Montenegro, Distrito de Rubião Junior, Botucatu-SP",
+      "telefone": "(14) 99624-7055",
+      "name": "Hemocentro de Botucatu"
+    },
+    {
+      "lat": "-20.82753238717583",
+      "lng": "-49.40012694409066",
+      "local": "Rua Tenente Catão Roxo, 2.501, Monte Alegre, Ribeirão Preto-SP",
+      "telefone": "(16) 2101-9300",
+      "name": "Hemocentro de São José do Rio Preto"
+    },
+    {
+      "lat": "-22.224748109632387",
+      "lng": "-49.9381162849395",
+      "local": "Rua Lourival Freire, 240, Fragata, Marília-SP",
+      "telefone": "(14) 3434-3828",
+      "name": "Hemocentro Regional de Marilia"
+    },
+    {
+      "lat": "-22.32981422478942",
+      "lng": "-49.076888734099356",
+      "local": "Rua Monsenhor Claro, 8-88, Centro, Bauru-SP",
+      "telefone": "(14) 3231-4771",
+      "name": "Hemonúcleo de Bauru"
+    },
+    {
+      "lat": "-22.828599884838326",
+      "lng": "-47.06238931304047",
+      "local": "Rua Carlos Chagas, 480, Cidade Universitária, Campinas-SP",
+      "telefone": "0800-722-8432",
+      "name": "Hemocentro Unicamp"
+    }
   ]
 }
