@@ -8,8 +8,8 @@ const hemocentros = require("../../assets/json/hemocentros.json");
 export default function Mapping() {
   const defaultProps = {
     center: {
-      lat: -23.36,
-      lng: -46.84,
+      lat: -23.5973,
+      lng: -46.6004,
     },
     zoom: 11,
   };
@@ -33,7 +33,7 @@ export default function Mapping() {
 
   return (
     <>
-      <div style={{ height: "50vh", width: "100%" }}>
+      <div style={{ height: "100vh", width: "100%" }}>
         <GoogleMapReact
           bootstrapURLKeys={{
             key: "AIzaSyBchQuQlmxRk - LeSQbgJ_cRibxNLKtovak",
@@ -66,7 +66,12 @@ export default function Mapping() {
         >
           <h1>Hemocentros</h1>
         </div>
-        <div>
+        <div
+          style={{
+            margin: 20,
+            alignItems: "flex-start",
+          }}
+        >
           {lista.map((item, index) => {
             //         listItem(item.name, item.local,item.telefone);
             return (
